@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f0f0f0;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+        }
+        .blog {
+            margin: 20px auto;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Webpage</h1>
+    </header>
+    <nav>
+        <a href="#">Store</a>
+        <a href="#">Cart</a>
+        <a href="#">Information</a>
+        <a href="#">Hack Me</a>
+        <a href="#">Donate</a>
+    </nav>
+    <div class="blog">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
+        <p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.</p>
+        <p>Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh. Vestibulum ut est augue, in varius purus.</p>
+    </div>
+</body>
+</html>
